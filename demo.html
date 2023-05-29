@@ -28,14 +28,19 @@
         <!--button id="usd-btn">換算</button-->
 
         <div class="form-control">
-            <input id="jpy">
+            <input id="aud">
             <span>澳幣 (AUD)</span>
         </div>
         <!--button id=audbtn">換算</button-->
         
         <div class="form-control">
-            <input id="usd">
+            <input id="eur">
             <span>歐元 (EUR)</span>
+        </div >
+        <!--button id="eur-btn">換算</button-->
+        <div class="form-control">
+            <input id="krw">
+            <span>韓元 (KRW)</span>
         </div >
         <!--button id="eur-btn">換算</button-->
         
@@ -51,24 +56,48 @@
         var ntd = $('#ntd').val();
         var usd = ntd/30.13;
         var jpy = ntd/0.2843;
-        $('#jpy').val(jpy.toFixed(3));
-        $('#usd').val(usd.toFixed(3));
+        $('#jpy').val(jpy.toFixed(2));
+        $('#usd').val(usd.toFixed(2));
     }
 
         function jpy_to_else () {
         var jpy = $('#jpy').val();
         var ntd = jpy*0.2843;
         var usd = ntd/30.13;
-        $('#ntd').val(ntd.toFixed(3));
-        $('#usd').val(usd.toFixed(3));
+        $('#ntd').val(ntd.toFixed(2));
+        $('#usd').val(usd.toFixed(2));
     }
 
         function usd_to_else () {
         var usd = $('#usd').val();
         var ntd = usd*30.13;
         var jpy = ntd/0.2843;
-        $('#jpy').val(ntd.toFixed(3));
-        $('#ntd').val(jpy.toFixed(3));
+        $('#jpy').val(ntd.toFixed(2));
+        $('#ntd').val(jpy.toFixed(2));
+}
+
+        function aud_to_else () {
+        var usd = $('#usd').val();
+        var ntd = usd*30.13;
+        var jpy = ntd/0.2843;
+        $('#jpy').val(ntd.toFixed(2));
+        $('#ntd').val(jpy.toFixed(2));
+}
+
+
+        function eur_to_else () {
+        var usd = $('#usd').val();
+        var ntd = usd*30.13;
+        var jpy = ntd/0.2843;
+        $('#jpy').val(ntd.toFixed(2));
+        $('#ntd').val(jpy.toFixed(2));
+}
+        function krw_to_else () {
+        var usd = $('#usd').val();
+        var ntd = usd*30.13;
+        var jpy = ntd/0.2843;
+        $('#jpy').val(ntd.toFixed(2));
+        $('#ntd').val(jpy.toFixed(2));
 }
 
     </script>

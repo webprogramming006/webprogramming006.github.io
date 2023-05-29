@@ -1,5 +1,6 @@
 /* 設定好寬度後，只要將margin設為auto，就可以達到左右置中 */
 /* 將container div 內的文字顏色都設為灰色 */
+/*5.網頁中使用了 5 種不同的 CSS 語法所設計的特效*/
 .container {
     width: 300px;
     margin: auto;
@@ -14,14 +15,14 @@
 
 span {
     color: #777777;
-    font-size: 14px;
+    font-size: 17px;
     transition: 1s;
 }
 
 input {
     height: 40px;
     padding: 5px;
-    font-size: 16px;
+    font-size: 20px;
     text-align: right;
 
     border-width: 0px;
@@ -31,8 +32,8 @@ input {
  }
  
  input:focus {
-     border-color: blue;
+     border-color: rebeccapurple;
  }
   input:focus +span{
-     color: blue;
+     color: olivedrab;
  }
