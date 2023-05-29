@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<rates>
+    <rate>
+        <name>美金(USD)</name>
+        <number>30.945</number>
+    </rate>
+
+    <rate>
+        <name>日圓(JPY)</name>
+        <number>0.2218</number>
+    </rate>
+
+    <rate>
+        <name>澳幣(AUD)</name>
+        <number>20.44</number>
+    </rate>
+
+    <rate>
+        <name>歐元(EUR)</name>
+        <number>33.44</number>
+    </rate>
+
+    <rate>
+        <name>韓元(KRW)</name>
+        <number>0.02533</number>
+    </rate>
+
+</rates>
+
